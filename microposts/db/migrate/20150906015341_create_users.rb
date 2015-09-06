@@ -9,6 +9,7 @@ class CreateUsers < ActiveRecord::Migration
       
       
       t.index :email, unique: true # この行を追加
+      
     end
   end
 end
